@@ -1,0 +1,111 @@
+body {
+  background:black;
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Top of page */
+
+.large-link-container {
+  width: 100%;
+  margin: 10px;
+  background-color: blueviolet;
+  display:flex;
+  justify-content: center;
+}
+
+h1.top-link {
+  font-size: 4rem;
+  color:aquamarine;
+}
+
+/* Results */
+
+.todo-item {
+  margin: 5px;
+  padding: 5px;
+  background:blue;
+}
+
+.task-name {
+  font-size:2rem;
+  min-height: 2.2rem;
+  background: navy;
+}
+
+.task-description {
+  font-size: 1.25rem;
+  min-height: 1.5rem;
+  background: navy;
+}
+
+.assigner-assignee-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.assigner-box {
+  background: red;
+}
+
+.assignee-box {
+  background: purple;
+}
+
+.email-box {
+  background: yellow;
+  color:black;
+}
+
+address {
+  font-style:unset;
+}
+
+
+/* Form */
+
+form {
+  background:purple;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+input {
+  width: 75%;
+}
+
+button {
+  margin-right: 0px;
+}
+
+#taskdescription {
+  height: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
+  color:black;
+  background: skyblue;
+}
+
+label.section-label {
+  font-size: 2rem;
+  color: black;
+  background: cyan;
+}
+
+button {
+  font-size: 2rem;
+}
